@@ -26,6 +26,7 @@ export class ItemsController {
       description,
       status: ItemStatus.ON_SALE,
     };
+
     return this.itemsService.create(item);
   }
 }
