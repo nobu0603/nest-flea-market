@@ -4,6 +4,6 @@ import { Controller, Get } from '@nestjs/common';
 export class ItemsController {
   @Get()
   findAll() {
-    return 'Get all items';
+    return 'This is findAll';
   }
 }
