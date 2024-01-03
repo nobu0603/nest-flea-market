@@ -1,6 +1,6 @@
 export class CreateItemDto {
   id: string;
   name: string;
-  ptice: number;
+  price: number;
   description: string;
 }
